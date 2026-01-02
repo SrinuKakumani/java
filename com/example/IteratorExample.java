@@ -17,7 +17,7 @@ public class IteratorExample {
 		while(itr1.hasNext())
 		{
 			System.out.println(itr1.next());
-			System.out.println()
+			System.out.println("hello");
 		}
 	}
 

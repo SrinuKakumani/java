@@ -6,10 +6,6 @@ import java.util.Iterator;
 import java.util.List;
 
 public class CollectionsDemo {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		List<String> names = new ArrayList<>();
 		List<String> names2=new ArrayList<>();
