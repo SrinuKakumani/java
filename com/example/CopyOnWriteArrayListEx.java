@@ -10,7 +10,6 @@ public class CopyOnWriteArrayListEx {
 	public static void main(String[] args) {
 		List<String> books = new CopyOnWriteArrayList<>(Arrays.asList("C","C++","Java"));
 		Iterator<String> itr = books.iterator();
-		System.out.println("first Iterator")
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
